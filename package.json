@@ -1,9 +1,10 @@
 {
   "name": "metodoget",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Simple app solo con metodo get en node.js",
   "main": "api/index.js",
   "scripts": {
+    "build": "echo 'No hace falta'",
     "start": "node api/index.js"
   },
   "dependencies": {

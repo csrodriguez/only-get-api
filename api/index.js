@@ -3,7 +3,11 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("¡¡¡Buenas!!! Golpeaste al metodo GET. -> CsR <-");
+  res.json({
+    saludo: "¡¡¡Buenas!!!",
+    mensaje: "Golpeaste al metodo GET.",
+    autor: "- CsR -",
+  });
 });
 
 app.listen(port, () => {
